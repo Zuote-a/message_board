@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="m-app m-padded-tp-big m-padded-lr-responsive" style="border: 1px">
+    <h1 class="m-">备忘录</h1>
+    <div class="m-text-thin">
+       <p>记录</p>
+        <input id="content" class="m-input-100%" type="text">
+    </div>
+    <div class="m-text-thin">
+        <p>日期</p>
+        <input id="date" class="m-input-100%" type="date">
+    </div>
+    <div class="m-text-thin">
+        <p>时间</p>
+        <input id="time" class="m-input-100%" type="time">
+    </div>
+    <div class="m-padded-tp-big m-padded-lr-responsive">
+        <div id="addBth" class="m-padded-tp-tiny"><button class="m-button-100%" >新增</button></div>
+        <div id="deletedBth" class="m-padded-tp-tiny"><button class="m-button-100%" >删除</button></div>
+
+
+    </div>
+
+    <div id="list" class="m-padded-tp-big list"></div>
+<!--    <div class="m-padded-tp-big m-padded-lr-responsive" id="item">-->
+<!--        <div><span>类容:</span></div>-->
+<!--        <div class="m-padded-tp-big"><span>时间:</span></div>-->
+<!--    </div>-->
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
